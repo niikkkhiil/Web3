@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors</title>
+
+    <script src="table.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" Content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <div class="header">
+        <div class="inner-header">
+            <br>
+            <div class="dropdowndemo">
+                <div class="dropdownbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
+                <div class="dropdownlist-content">
+                    <a href="/index"><span class="glyphicon glyphicon-home"></span> Home</a>
+
+                    <div class="dropdown">
+                        <a href="/doctors" target="_blank"><span class="glyphicon glyphicon-user"></span> Our Doctors</a>
+                    </div>
+
+                    <a href="/facilities"><span class="glyphicon glyphicon-list"></span> Facilities</a>
+
+                    <div class="sub-menu-dropdown">
+                        <div class="sub-menu-btn">
+                            <a href="#"><span class="glyphicon glyphicon-cog"></span> Settings  <span class="glyphicon glyphicon-menu-down"></span></a>
+                        </div>
+                        <div class="sub-menu">
+                            <ul>
+                                <li id="google_element"></li>
+                                <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+                                <script>
+                                    function loadGoogleTranslate() {
+                                        new google.translate.TranslateElement("google_element");
+                                    }
+                                </script>
+
+                                <li>Logout</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li style="margin-right: 200px;">
+                    <h2>Saviour Hospital</h2>
+                </li>
+                <li>
+                    <a href="/bookappt" target="_blank"><span class="glyphicon glyphicon-plus-sign"></span> Book Appointment</a>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Admin Login</a>
+                    <div class="dropdown-menu">
+                        <div class="main_div">
+                            <div class="box">
+                                <h1 class="center">Login form</h1>
+                                <br><br>
+                                <form method=" " action="">
+                                    <div class="inputBox">
+                                        <input type="number" name="AadharNo." autocomplete="off" required>
+                                        <label>Aadhar Number</label>
+                                    </div>
+
+                                    <div class="inputBox">
+                                        <input type="password" name="password" autocomplete="off" required>
+                                        <label> Password</label>
+                                    </div>
+
+                                    <div class="center">
+                                        <input type="submit" name=" " value="Login">
+                                        <p class="gap"> New User ? &nbsp;<a href="/signup" target="blank" style="color: rgb(0, 119, 255);">SignUp</a></p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Doctor's Login</a>
+                    <div class="dropdown-menu">
+                        <div class="main_div">
+                            <div class="box">
+                                <h1 class="center">Login form</h1>
+                                <br><br>
+                                <form method=" " action="">
+                                    <div class="inputBox">
+                                        <input type="number" name="AadharNo." autocomplete="off" required>
+                                        <label>Aadhar Number</label>
+                                    </div>
+
+                                    <div class="inputBox">
+                                        <input type="password" name="password" autocomplete="off" required>
+                                        <label> Password</label>
+                                    </div>
+
+                                    <div class="center">
+                                        <input type="submit" name=" " value="Login">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!--End od Header-->
+
+    <br>
+    <div class="dr">
+        <h1 class="dr-heading">
+            <center>OUR DOCTORS</center>
+        </h1>
+
+        <table class="dr-table">
+            <tr>
+                <th>DOCTOR'S NAME</th>
+                <th>FACULTY</th>
+                <th>Degree</th>
+            </tr>
+            <tr>
+                <td>Dr. Ankita Tiwari</td>
+                <td>Cardiologist</td>
+                <td>MBBS MD</td>
+            </tr>
+            <tr>
+                <td>Dr. Aakansha Tiwari</td>
+                <td>Dentist</td>
+                <td>BDS MD</td>
+            </tr>
+            <tr>
+                <td>Dr. Pawan Bhagat</td>
+                <td>Neurologist</td>
+                <td>D.M in Neuro</td>
+            </tr>
+            <tr>
+                <td>Dr. Karan Shukla</td>
+                <td>Neurologist</td>
+                <td>D.M in Neuro</td>
+            </tr>
+            <tr>
+                <td>Dr Aditya Jain</td>
+                <td>Cardiologist</td>
+                <td>MBBS & MD</td>
+            </tr>
+            <tr>
+                <td>Dr Anup Rathi</td>
+                <td>General Physician</td>
+                <td>MBBS</td>
+            </tr>
+            <tr>
+                <td>Dr Sanjay Tiwari</td>
+                <td>Ophthalmologist</td>
+                <td>MD & DOMS</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Footer-->
+    <center>
+        <footer>
+            <div class="container ">
+                <p><span class="glyphicon glyphicon-earphone"></span> Contact Us : +91 90000 00000 <b>|</b> <span class="glyphicon glyphicon-envelope"></span> E-mail : saviourhospitalprojects@gmail.com</p>
+                <p> <button><a href=""><span class="glyphicon glyphicon-bookmark"></span> Website</a></button> : www.saviour.com
+                    <b>|</b>
+                    <button><a href="https://www.google.co.in/maps/@18.8154265,76.7751434,7z?hl=en&authuser=0"><span class="glyphicon glyphicon-map-marker"></span> Location </a></button> </p>
+            </div>
+        </footer>
+    </center>
+    <!--End of Footer-->
+
+</body>
+
+</html>
