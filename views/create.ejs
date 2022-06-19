@@ -14,10 +14,17 @@
 
 <body>
    
-                                <form method="post" action="/getPatient">
+                                <form method="post" action="/createPatientRecord">
                                     <div class="inputBox">
-                                        <input type="number" name="aadharno" autocomplete="off" required>
+                                        <input type="number" name="aadhar_no" autocomplete="off" required>
                                         <label>Aadhar Number</label>
+                                        <input type="string" name="name" autocomplete="off" required>
+                                        <label>name</label>
+                                        <input type="number" name="age" autocomplete="off" required>
+                                        <label>Age</label>
+                                        <input type="string" name="gender" autocomplete="off" required>
+                                        <label>Gender</label>
+
                                     </div>
 
                                    
